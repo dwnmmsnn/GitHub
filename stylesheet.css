@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+  color: #59656f;
+  box-sizing: border-box;
+}
+
+/* bottom */
+
+.top {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  font-size: 14px;
+  border: 1px solid #d6ddd4;
+  background: #f6f8fa;
+  padding-right: 10px;
+}
+
+.btn {
+  height: 24px;
+  border: 1px solid #d6ddd4;
+  border-radius: 4px;
+  background: #f6f8fa;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
+
+.top img {
+  filter: invert(40%) sepia(8%) saturate(767%) hue-rotate(165deg)
+    brightness(90%) contrast(84%);
+}
+
+.lookup {
+  width: 220px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #d6ddd4;
+  border-radius: 4px;
+  background: #f6f8fa;
+  margin: 0 auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 5px;
+}
+
+input::placeholder {
+  color: #59656f;
+}
+
+.li {
+  height: 24px;
+  border-left: 1px solid #d6ddd4;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* bottom */
+
+.bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10%;
+}
+
+/* l */
+
+h2 {
+  font-size: 12px;
+}
+
+.l {
+  display: flex;
+  position: fixed;
+  top: 10%;
+  left: 0;
+  bottom: 0;
+  width: 29%;
+  border-right: 1px solid #d6ddd4;
+}
+
+.l .lookup {
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #d6ddd4;
+  border-radius: 4px;
+  background: #f6f8fa;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 12px;
+}
+
+li {
+  margin-top: 10px;
+  margin-left: 4px;
+}
+
+/* mid */
+
+.mid {
+  position: fixed;
+  top: 10%;
+  right: 0;
+  bottom: 0;
+  width: 71%;
+}
+
+.profileDiv {
+  position: relative;
+  width: 100%;
+  font-size: 12px;
+  border: 1px solid #d6ddd4;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.profileDiv img {
+  width: 12%;
+  height: 12%;
+  border: none;
+  border-radius: 20px;
+}
+
+.linkbtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 70px;
+  height: 29px;
+  border: 1px solid #d6ddd4;
+  border-radius: 4px;
+  background: #f6f8fa;
+  color: #59656f;
+}
+
+p {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
