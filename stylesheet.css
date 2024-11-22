@@ -22,6 +22,7 @@
 }
 
 .btn {
+  width: 24px;
   height: 24px;
   border: 1px solid #d6ddd4;
   border-radius: 4px;
@@ -36,16 +37,23 @@
     brightness(90%) contrast(84%);
 }
 
-.lookup {
-  width: 220px;
+.m {
+  display: flex;
+  width: 249px;
   height: 24px;
   line-height: 24px;
+  margin: 0 auto;
+  margin-left: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.lookup {
+  width: 220px;
+  height: 100%;
   border: 1px solid #d6ddd4;
   border-radius: 4px;
   background: #f6f8fa;
-  margin: 0 auto;
-  margin-top: auto;
-  margin-bottom: auto;
   padding-left: 5px;
 }
 
@@ -137,10 +145,22 @@ li {
 }
 
 .profileDiv img {
-  width: 12%;
-  height: 12%;
+  width: 10%;
+  height: 100%;
   border: none;
   border-radius: 20px;
+}
+
+.div0 {
+  display: flex;
+  height: 20%;
+  background
+}
+
+.div1 {
+  border: 1px solid #f6f8fa;
+  border-radius: 2px;
+  background: #f6f8fa;
 }
 
 .linkbtn {
@@ -153,6 +173,12 @@ li {
   border-radius: 4px;
   background: #f6f8fa;
   color: #59656f;
+}
+
+h {
+  margin: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 p {
